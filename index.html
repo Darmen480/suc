@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venue Form</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="script.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="image">
+	<img src="logo.gif">
+	<span>Updated on 28 april 2020</span>
+</div>
+	<h1>Venue Approval Form</h1>
+	<h3>A. Venue to be approved</h3>
+</div>
+	<div class="contents">
+
+    <form name="approval" onsubmit="return formValidation()">
+        
+        <ul class="form-group1">
+                       
+                
+                   <li><input type="radio" name="main" value="auditorium">
+                    Main Auditorium</br></li>
+                  <li><input type="radio" name="meeting" value="room">
+                    Meeting Room 125</br></li>
+                    <li><input type="radio" name="LG" value="stage">
+                    LG Stage</br></li>
+                    <li><input type="radio" name="auditorium" value="a">
+                    Auditorium A</br></li>
+                    <li><input type="radio" name="hua" value="yuan">
+                    Hua Yuan</br></li>
+                    <li><input type="radio" name="auditorium" value="b">
+                    Auditorium B</br></li>
+                    <li><input type="radio" name="lecture" value="halls">
+                    Lecture Halls (2C, 2D, 2E, 2F, 2G, 2H, 3C, 3F)</br></li>
+                    <li><input type="radio" name="otrs" value="others">
+                    Others</br></li>
+                </li>
+                </ul>
+                </div>
+
+                  <div class="part2">
+            <div class="big-header2"><h3>B. Personal Information</h3></div>
+            <div class="form-5">
+                <ul class="form-group5">
+
+                    <li><label for="applicantname">Applicant's Name:<span></span></label></li>
+                  
+                        <input type="text" name="username" placeholder="Enter your name" size="50" required>
+                    
+                    
+                    
+
+                    <li><label for="event">Event:<span></span></label></li>
+
+                    
+                        <input type="text" name="event" placeholder="Type of event" required>
+                    
+
+                    <li><label for="ph">H/P No:<span></span></label></li>
+
+                    
+                    	<input type="text" name="hpnumber"
+                    	placeholder="000-0000000" required>
+                  
+
+
+                    <li><label for="datetime">Date/Time</label></li>
+                   
+                    	<input type="text" name="datetime"
+                    	placeholder="dd/mm/yy" required>
+                   
+
+                    <li><label for="participants">No. of participants<span></span></label></li>
+
+                    <input type="text" name="participants" required>
+
+                    <li><label for="sign">Signature<span></span></label></li>
+
+                    <input type="text" name="area" required>
+
+               </ul>
+               <button type="button" onclick="alert('Thank You! We will get back to you soon! :D')">Submit</button>
+           </div>
+
+                   <h2>Reminder: The Asset Management & General Affairs Office reserves the right to change or refuse any booking.</h2>
+               

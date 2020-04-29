@@ -1,0 +1,50 @@
+*
+
+img
+{
+	margin-left: 0px;
+	margin-bottom: 5px;
+	width: 20%;
+}
+
+h1
+{
+	font-family: 'Courgette', cursive;
+}
+
+h3
+{
+	font-family: 'helvetica',sans-serif;
+}
+
+li
+{
+	font-family: 'helvetica',sans-serif;
+}
+
+h2
+{
+	margin-left: 0px;
+        font-family: 'helvetica',sans-serif;
+}
+
+span
+{
+	float: right;
+}
+
+button
+{
+	top: 30px;
+	border-radius: 100px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 9px 38px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
